@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-简单集成
+简单集成科大讯飞SDK简单集成科大讯飞SDK
                    DESC
 
   s.homepage     = "https://github.com/barry-source/iflyMSCFramework"
