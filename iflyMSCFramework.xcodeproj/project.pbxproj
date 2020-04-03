@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7BA123524376DD0005CA041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BA123424376DD0005CA041 /* AppDelegate.swift */; };
+		E7BA123724376DD0005CA041 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BA123624376DD0005CA041 /* SceneDelegate.swift */; };
+		E7BA123924376DD0005CA041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BA123824376DD0005CA041 /* ViewController.swift */; };
+		E7BA123C24376DD0005CA041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BA123A24376DD0005CA041 /* Main.storyboard */; };
+		E7BA123E24376DD1005CA041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BA123D24376DD1005CA041 /* Assets.xcassets */; };
+		E7BA124124376DD1005CA041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BA123F24376DD1005CA041 /* LaunchScreen.storyboard */; };
+		E7BA124C24376DD1005CA041 /* iflyMSCFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BA124B24376DD1005CA041 /* iflyMSCFrameworkTests.swift */; };
+		E7BA125724376DD1005CA041 /* iflyMSCFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BA125624376DD1005CA041 /* iflyMSCFrameworkUITests.swift */; };
+		E7BA126524376DFB005CA041 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA126424376DFB005CA041 /* iflyMSC.framework */; };
+		E7BA126924376E4D005CA041 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA126724376E39005CA041 /* libz.tbd */; };
+		E7BA126A24376E57005CA041 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA126824376E41005CA041 /* libc++.tbd */; };
+		E7BA126C24376E7B005CA041 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA126B24376E7B005CA041 /* AVFoundation.framework */; };
+		E7BA126E24376E93005CA041 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA126D24376E93005CA041 /* SystemConfiguration.framework */; };
+		E7BA127024376EA6005CA041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA126F24376EA6005CA041 /* Foundation.framework */; };
+		E7BA127224376EB0005CA041 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA127124376EB0005CA041 /* CoreTelephony.framework */; };
+		E7BA127424376EC0005CA041 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA127324376EC0005CA041 /* AudioToolbox.framework */; };
+		E7BA127624376ECE005CA041 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA127524376ECE005CA041 /* UIKit.framework */; };
+		E7BA127824376ED9005CA041 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA127724376ED9005CA041 /* CoreLocation.framework */; };
+		E7BA127A24376EE1005CA041 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA127924376EE1005CA041 /* Contacts.framework */; };
+		E7BA127C24376EE9005CA041 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA127B24376EE9005CA041 /* AddressBook.framework */; };
+		E7BA127E24376EF1005CA041 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA127D24376EF1005CA041 /* QuartzCore.framework */; };
+		E7BA128024376EF9005CA041 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BA127F24376EF9005CA041 /* CoreGraphics.framework */; };
+		E7BA128424376F9F005CA041 /* CWAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BA128324376F9F005CA041 /* CWAudioManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7BA124824376DD1005CA041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7BA122924376DD0005CA041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7BA123024376DD0005CA041;
+			remoteInfo = iflyMSCFramework;
+		};
+		E7BA125324376DD1005CA041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7BA122924376DD0005CA041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7BA123024376DD0005CA041;
+			remoteInfo = iflyMSCFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7BA123124376DD0005CA041 /* iflyMSCFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iflyMSCFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BA123424376DD0005CA041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7BA123624376DD0005CA041 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E7BA123824376DD0005CA041 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7BA123B24376DD0005CA041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7BA123D24376DD1005CA041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7BA124024376DD1005CA041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7BA124224376DD1005CA041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BA124724376DD1005CA041 /* iflyMSCFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iflyMSCFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BA124B24376DD1005CA041 /* iflyMSCFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iflyMSCFrameworkTests.swift; sourceTree = "<group>"; };
+		E7BA124D24376DD1005CA041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BA125224376DD1005CA041 /* iflyMSCFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iflyMSCFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BA125624376DD1005CA041 /* iflyMSCFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iflyMSCFrameworkUITests.swift; sourceTree = "<group>"; };
+		E7BA125824376DD1005CA041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BA126424376DFB005CA041 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		E7BA126724376E39005CA041 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E7BA126824376E41005CA041 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E7BA126B24376E7B005CA041 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E7BA126D24376E93005CA041 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E7BA126F24376EA6005CA041 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7BA127124376EB0005CA041 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E7BA127324376EC0005CA041 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E7BA127524376ECE005CA041 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7BA127724376ED9005CA041 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E7BA127924376EE1005CA041 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		E7BA127B24376EE9005CA041 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		E7BA127D24376EF1005CA041 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E7BA127F24376EF9005CA041 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7BA128124376F9F005CA041 /* iflyMSCFramework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iflyMSCFramework-Bridging-Header.h"; sourceTree = "<group>"; };
+		E7BA128224376F9F005CA041 /* CWAudioManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWAudioManager.h; sourceTree = "<group>"; };
+		E7BA128324376F9F005CA041 /* CWAudioManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWAudioManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7BA122E24376DD0005CA041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BA126C24376E7B005CA041 /* AVFoundation.framework in Frameworks */,
+				E7BA127E24376EF1005CA041 /* QuartzCore.framework in Frameworks */,
+				E7BA127A24376EE1005CA041 /* Contacts.framework in Frameworks */,
+				E7BA127624376ECE005CA041 /* UIKit.framework in Frameworks */,
+				E7BA127024376EA6005CA041 /* Foundation.framework in Frameworks */,
+				E7BA127224376EB0005CA041 /* CoreTelephony.framework in Frameworks */,
+				E7BA127424376EC0005CA041 /* AudioToolbox.framework in Frameworks */,
+				E7BA127C24376EE9005CA041 /* AddressBook.framework in Frameworks */,
+				E7BA126E24376E93005CA041 /* SystemConfiguration.framework in Frameworks */,
+				E7BA127824376ED9005CA041 /* CoreLocation.framework in Frameworks */,
+				E7BA128024376EF9005CA041 /* CoreGraphics.framework in Frameworks */,
+				E7BA126A24376E57005CA041 /* libc++.tbd in Frameworks */,
+				E7BA126524376DFB005CA041 /* iflyMSC.framework in Frameworks */,
+				E7BA126924376E4D005CA041 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BA124424376DD1005CA041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BA124F24376DD1005CA041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7BA122824376DD0005CA041 = {
+			isa = PBXGroup;
+			children = (
+				E7BA123324376DD0005CA041 /* iflyMSCFramework */,
+				E7BA124A24376DD1005CA041 /* iflyMSCFrameworkTests */,
+				E7BA125524376DD1005CA041 /* iflyMSCFrameworkUITests */,
+				E7BA123224376DD0005CA041 /* Products */,
+				E7BA126624376E39005CA041 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7BA123224376DD0005CA041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7BA123124376DD0005CA041 /* iflyMSCFramework.app */,
+				E7BA124724376DD1005CA041 /* iflyMSCFrameworkTests.xctest */,
+				E7BA125224376DD1005CA041 /* iflyMSCFrameworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7BA123324376DD0005CA041 /* iflyMSCFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E7BA126424376DFB005CA041 /* iflyMSC.framework */,
+				E7BA123424376DD0005CA041 /* AppDelegate.swift */,
+				E7BA123624376DD0005CA041 /* SceneDelegate.swift */,
+				E7BA123824376DD0005CA041 /* ViewController.swift */,
+				E7BA123A24376DD0005CA041 /* Main.storyboard */,
+				E7BA123D24376DD1005CA041 /* Assets.xcassets */,
+				E7BA123F24376DD1005CA041 /* LaunchScreen.storyboard */,
+				E7BA124224376DD1005CA041 /* Info.plist */,
+				E7BA128224376F9F005CA041 /* CWAudioManager.h */,
+				E7BA128324376F9F005CA041 /* CWAudioManager.m */,
+				E7BA128124376F9F005CA041 /* iflyMSCFramework-Bridging-Header.h */,
+			);
+			path = iflyMSCFramework;
+			sourceTree = "<group>";
+		};
+		E7BA124A24376DD1005CA041 /* iflyMSCFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7BA124B24376DD1005CA041 /* iflyMSCFrameworkTests.swift */,
+				E7BA124D24376DD1005CA041 /* Info.plist */,
+			);
+			path = iflyMSCFrameworkTests;
+			sourceTree = "<group>";
+		};
+		E7BA125524376DD1005CA041 /* iflyMSCFrameworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7BA125624376DD1005CA041 /* iflyMSCFrameworkUITests.swift */,
+				E7BA125824376DD1005CA041 /* Info.plist */,
+			);
+			path = iflyMSCFrameworkUITests;
+			sourceTree = "<group>";
+		};
+		E7BA126624376E39005CA041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7BA127F24376EF9005CA041 /* CoreGraphics.framework */,
+				E7BA127D24376EF1005CA041 /* QuartzCore.framework */,
+				E7BA127B24376EE9005CA041 /* AddressBook.framework */,
+				E7BA127924376EE1005CA041 /* Contacts.framework */,
+				E7BA127724376ED9005CA041 /* CoreLocation.framework */,
+				E7BA127524376ECE005CA041 /* UIKit.framework */,
+				E7BA127324376EC0005CA041 /* AudioToolbox.framework */,
+				E7BA127124376EB0005CA041 /* CoreTelephony.framework */,
+				E7BA126F24376EA6005CA041 /* Foundation.framework */,
+				E7BA126D24376E93005CA041 /* SystemConfiguration.framework */,
+				E7BA126B24376E7B005CA041 /* AVFoundation.framework */,
+				E7BA126824376E41005CA041 /* libc++.tbd */,
+				E7BA126724376E39005CA041 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7BA123024376DD0005CA041 /* iflyMSCFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BA125B24376DD1005CA041 /* Build configuration list for PBXNativeTarget "iflyMSCFramework" */;
+			buildPhases = (
+				E7BA122D24376DD0005CA041 /* Sources */,
+				E7BA122E24376DD0005CA041 /* Frameworks */,
+				E7BA122F24376DD0005CA041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iflyMSCFramework;
+			productName = iflyMSCFramework;
+			productReference = E7BA123124376DD0005CA041 /* iflyMSCFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7BA124624376DD1005CA041 /* iflyMSCFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BA125E24376DD1005CA041 /* Build configuration list for PBXNativeTarget "iflyMSCFrameworkTests" */;
+			buildPhases = (
+				E7BA124324376DD1005CA041 /* Sources */,
+				E7BA124424376DD1005CA041 /* Frameworks */,
+				E7BA124524376DD1005CA041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7BA124924376DD1005CA041 /* PBXTargetDependency */,
+			);
+			name = iflyMSCFrameworkTests;
+			productName = iflyMSCFrameworkTests;
+			productReference = E7BA124724376DD1005CA041 /* iflyMSCFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7BA125124376DD1005CA041 /* iflyMSCFrameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BA126124376DD1005CA041 /* Build configuration list for PBXNativeTarget "iflyMSCFrameworkUITests" */;
+			buildPhases = (
+				E7BA124E24376DD1005CA041 /* Sources */,
+				E7BA124F24376DD1005CA041 /* Frameworks */,
+				E7BA125024376DD1005CA041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7BA125424376DD1005CA041 /* PBXTargetDependency */,
+			);
+			name = iflyMSCFrameworkUITests;
+			productName = iflyMSCFrameworkUITests;
+			productReference = E7BA125224376DD1005CA041 /* iflyMSCFrameworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7BA122924376DD0005CA041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = tongshichao;
+				TargetAttributes = {
+					E7BA123024376DD0005CA041 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					E7BA124624376DD1005CA041 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E7BA123024376DD0005CA041;
+					};
+					E7BA125124376DD1005CA041 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E7BA123024376DD0005CA041;
+					};
+				};
+			};
+			buildConfigurationList = E7BA122C24376DD0005CA041 /* Build configuration list for PBXProject "iflyMSCFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7BA122824376DD0005CA041;
+			productRefGroup = E7BA123224376DD0005CA041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7BA123024376DD0005CA041 /* iflyMSCFramework */,
+				E7BA124624376DD1005CA041 /* iflyMSCFrameworkTests */,
+				E7BA125124376DD1005CA041 /* iflyMSCFrameworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7BA122F24376DD0005CA041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BA124124376DD1005CA041 /* LaunchScreen.storyboard in Resources */,
+				E7BA123E24376DD1005CA041 /* Assets.xcassets in Resources */,
+				E7BA123C24376DD0005CA041 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BA124524376DD1005CA041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BA125024376DD1005CA041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7BA122D24376DD0005CA041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BA123924376DD0005CA041 /* ViewController.swift in Sources */,
+				E7BA123524376DD0005CA041 /* AppDelegate.swift in Sources */,
+				E7BA128424376F9F005CA041 /* CWAudioManager.m in Sources */,
+				E7BA123724376DD0005CA041 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BA124324376DD1005CA041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BA124C24376DD1005CA041 /* iflyMSCFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BA124E24376DD1005CA041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BA125724376DD1005CA041 /* iflyMSCFrameworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7BA124924376DD1005CA041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7BA123024376DD0005CA041 /* iflyMSCFramework */;
+			targetProxy = E7BA124824376DD1005CA041 /* PBXContainerItemProxy */;
+		};
+		E7BA125424376DD1005CA041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7BA123024376DD0005CA041 /* iflyMSCFramework */;
+			targetProxy = E7BA125324376DD1005CA041 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7BA123A24376DD0005CA041 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BA123B24376DD0005CA041 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7BA123F24376DD1005CA041 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BA124024376DD1005CA041 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7BA125924376DD1005CA041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7BA125A24376DD1005CA041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7BA125C24376DD1005CA041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iflyMSCFramework",
+				);
+				INFOPLIST_FILE = iflyMSCFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsc.iflyMSCFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iflyMSCFramework/iflyMSCFramework-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7BA125D24376DD1005CA041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iflyMSCFramework",
+				);
+				INFOPLIST_FILE = iflyMSCFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsc.iflyMSCFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iflyMSCFramework/iflyMSCFramework-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7BA125F24376DD1005CA041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iflyMSCFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsc.iflyMSCFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iflyMSCFramework.app/iflyMSCFramework";
+			};
+			name = Debug;
+		};
+		E7BA126024376DD1005CA041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iflyMSCFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsc.iflyMSCFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iflyMSCFramework.app/iflyMSCFramework";
+			};
+			name = Release;
+		};
+		E7BA126224376DD1005CA041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iflyMSCFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsc.iflyMSCFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iflyMSCFramework;
+			};
+			name = Debug;
+		};
+		E7BA126324376DD1005CA041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iflyMSCFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsc.iflyMSCFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iflyMSCFramework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7BA122C24376DD0005CA041 /* Build configuration list for PBXProject "iflyMSCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BA125924376DD1005CA041 /* Debug */,
+				E7BA125A24376DD1005CA041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BA125B24376DD1005CA041 /* Build configuration list for PBXNativeTarget "iflyMSCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BA125C24376DD1005CA041 /* Debug */,
+				E7BA125D24376DD1005CA041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BA125E24376DD1005CA041 /* Build configuration list for PBXNativeTarget "iflyMSCFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BA125F24376DD1005CA041 /* Debug */,
+				E7BA126024376DD1005CA041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BA126124376DD1005CA041 /* Build configuration list for PBXNativeTarget "iflyMSCFrameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BA126224376DD1005CA041 /* Debug */,
+				E7BA126324376DD1005CA041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7BA122924376DD0005CA041 /* Project object */;
+}
