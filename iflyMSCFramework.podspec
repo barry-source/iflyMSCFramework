@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.name         = "iflyMSCFramework"
 
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "科大讯飞iOS语音控件SDK"
 
   # This description is used to generate tags and improve search results.
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'iflyMSCFramework/Source/iflyMSC.framework/Headers/*.h'
-  s.vendored_frameworks = 'iflyMSCFramework/Source/iflyMSC.framework'
+  s.source_files  = 'iflyMSCFramework/iflyMSC.framework/Headers/*.h'
+  s.vendored_frameworks = 'iflyMSCFramework/iflyMSC.framework'
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
