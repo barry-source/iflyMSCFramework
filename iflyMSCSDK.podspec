@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.name         = "iflyMSCSDK"
 
-  s.version      = "0.1.3"
+  s.version      = "0.1.4"
   s.summary      = "科大讯飞iOS语音控件SDK"
 
   # This description is used to generate tags and improve search results.
